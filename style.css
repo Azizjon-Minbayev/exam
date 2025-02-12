@@ -1,0 +1,142 @@
+body {
+    background-color:lightslategrey;
+}
+
+.wrapper {
+    width: 1500px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+}
+
+.container {
+    padding: 50px;
+}
+
+.container__img {
+    margin-right: 20px; 
+}
+
+.navbar__links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+flex-direction: row;
+padding: 0px;
+position: absolute;
+width: 549px;
+height: 56px;
+right: 267px;
+top: 0px;
+}
+
+.navbar__items {
+    text-decoration: none;
+}
+
+.navbar__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 172px;
+    margin-left: 172px;
+    margin-top: 80px;
+}
+
+.navbar__text1 {
+width: 470px;
+height: 78px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 130%;
+color: #000000;
+flex: none;
+order: 0;
+align-self: flex-start;
+flex-grow: 0;
+}
+
+.navbar__text2 {
+width: 465px;
+height: 74px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+flex: none;
+order: 1;
+align-self: center;
+flex-grow: 0;
+}
+
+.container__btn {
+margin-left: 400px;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+position: absolute;
+width: 160px;
+height: 40px;
+background: #00BAFC;
+border-radius: 5px;
+}
+
+.container__number {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__btn {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+width: 232px;
+height: 40px;
+background: #00BAFC;
+border-radius: 5px;
+flex: none;
+order: 2;
+align-self: flex-start;
+flex-grow: 0;
+color: white;
+}
+
+.navbar__text3 {
+width: 117px;
+height: 31px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 130%;
+text-align: center;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.navbar__text4 {
+width: 719px;
+height: 48px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
